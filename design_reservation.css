@@ -1,0 +1,85 @@
+body::before {
+    content: "";
+    position: fixed;      
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url('bg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(4px);       
+    z-index: -1;     
+}        
+.head-container{
+    text-align: center;
+    margin-top: 20px;
+}
+h1,h2{
+    display: inline-block;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 10px;
+}
+h1{
+    color:rgb(14, 177, 14);
+}  
+h2{
+    color:rgb(10, 77, 10); 
+}   
+h3{
+    text-align: center;
+    font-family: 'Gothic';
+    font-size: 35px;
+    color:rgb(21, 34, 1);
+}
+.reservation{
+    text-align: justify;
+    margin:20px auto ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    width: 400px;
+    height: 40px;
+    font-size:15px;
+    padding:5px 10px;
+    box-sizing: border-box;
+    border-color: rgb(6, 63, 25);
+    border-radius: 0%;
+    border-top: 0cap;
+    transform-style: preserve-3d;
+}
+td{
+   font-size: 25px;
+   font-family: georgia;
+   text-emphasis-color: inherit;
+   color:rgb(188, 241, 191);
+   text-align: center;
+   
+}
+.reservebtn{
+    border:none;
+    font-style: oblique;
+    display:block;
+    cursor:pointer;
+    border-radius: 7px;
+    background-color:rgb(217, 233, 190);
+    margin: 25px auto 0 auto;
+    font-size: 25px;
+    width: 200px;
+}
+.reservebtn:hover{
+    background-color:rgb(28, 209, 43);
+}
+.prevbtn{
+    position:absolute;
+    top: 45px;
+    left: 15px;
+    border-radius: 7px;
+    font-size:20px;
+    cursor: pointer;
+    width: 100px;
+}
+.prevbtn:hover{
+    background-color: rgb(28, 209, 43);
+}
